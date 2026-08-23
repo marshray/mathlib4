@@ -5,8 +5,11 @@ Authors: Rao Xiaojia
 -/
 module
 
-public import Mathlib.LinearAlgebra.Matrix.Echelon.Decomposition
 public import Mathlib.Tactic.Echelon.Rat
+public import Mathlib.Data.Nat.Totient
+public import Mathlib.Data.Sym.Sym2
+public import Mathlib.LinearAlgebra.Matrix.Notation
+public import Mathlib.Tactic.NormNum.GCD
 
 /-!
 # The Bareiss decomposition driver

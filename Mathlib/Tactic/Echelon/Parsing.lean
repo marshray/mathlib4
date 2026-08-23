@@ -5,7 +5,14 @@ Authors: Rao Xiaojia
 -/
 module
 
-public meta import Mathlib.LinearAlgebra.Matrix.Notation
+public meta import Aesop
+public import Mathlib.Data.Fin.VecNotation
+public import Mathlib.Data.Finset.Attr
+public import Mathlib.LinearAlgebra.Matrix.Defs
+public import Mathlib.Tactic.Bound.Init
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
+public import Mathlib.Tactic.SetLike
+public meta import Mathlib.Tactic.ToAdditive
 
 /-!
 # Parsing matrix literals
